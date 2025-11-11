@@ -1,0 +1,42 @@
+test_name,display_name,unit,normal_min_male,normal_max_male,normal_min_female,normal_max_female,low_severity,high_severity,low_explanation,high_explanation,search_patterns,description,category
+hemoglobin,Hemoglobin,g/dL,13.5,17.5,12.0,15.5,MODERATE,MODERATE,May indicate anemia,May indicate polycythemia,HB|Hemoglobin,Oxygen-carrying protein in red blood cells,CBC
+rbc,RBC,million/µL,4.7,6.1,4.2,5.4,MODERATE,MODERATE,May suggest anemia,May suggest polycythemia,RBC|Red Blood Cells,Number of red blood cells per volume of blood,CBC
+wbc,WBC,×10⁹/L,4.0,11.0,4.0,11.0,HIGH,HIGH,Increased infection risk,Possible infection/inflammation,WBC|White Blood Cells,Total white blood cell count - immune system cells,CBC
+platelets,Platelets,×10⁹/L,150,450,150,450,HIGH,HIGH,Bleeding risk,Clotting risk,PLATELETS|Platelet,Blood cells responsible for clotting,CBC
+hct,Hematocrit,%,40.0,54.0,36.0,48.0,MODERATE,MODERATE,May indicate anemia,May indicate dehydration,HCT|Hematocrit,Percentage of blood volume occupied by red blood cells,CBC
+mcv,MCV,fL,80.0,96.0,80.0,96.0,MODERATE,MODERATE,Suggests microcytic anemia,Suggests macrocytic anemia,MCV,Mean Corpuscular Volume - average size of red blood cells,CBC
+mch,MCH,pg,27.0,33.0,27.0,33.0,MODERATE,MODERATE,Suggests hypochromic anemia,Hyperchromic cells,MCH,Mean Corpuscular Hemoglobin - average hemoglobin per red blood cell,CBC
+mchc,MCHC,g/dL,32.0,36.0,32.0,36.0,MODERATE,MODERATE,Hypochromic cells,Spherocytosis possibility,MCHC,Mean Corpuscular Hemoglobin Concentration - hemoglobin concentration in red blood cells,CBC
+neutrophils,Neutrophils,%,40.0,70.0,40.0,70.0,HIGH,HIGH,Neutropenia - infection risk,Possible bacterial infection,NEUTROPHILS,Primary defense against bacterial infections,CBC
+lymphocytes,Lymphocytes,%,20.0,45.0,20.0,45.0,MODERATE,MODERATE,Possible immunodeficiency,Possible viral infection,LYMPHOCYTES,Key cells for viral defense and antibody production,CBC
+monocytes,Monocytes,%,2.0,10.0,2.0,10.0,LOW,LOW,Usually not significant,Chronic infection possibility,MONOCYTES,Phagocytes that become macrophages; elevated in chronic conditions,CBC
+eosinophils,Eosinophils,%,1.0,6.0,1.0,6.0,LOW,MODERATE,Usually not significant,Allergy/parasite possibility,EOSINOPHILS,Associated with allergic reactions and parasitic infections,CBC
+basophils,Basophils,%,0.0,1.0,0.0,1.0,LOW,LOW,Usually not significant,Inflammatory disorders,BASOPHILS,Involved in inflammatory and allergic responses,CBC
+rdw,RDW,%,11.5,14.5,11.5,14.5,LOW,MODERATE,Usually not significant,Anisocytosis (varied cell sizes),RDW|Red Cell Distribution Width,Measures variation in red blood cell size,CBC
+glucose,Glucose,mg/dL,70.0,100.0,70.0,100.0,HIGH,HIGH,Hypoglycemia risk,Diabetes risk,GLUCOSE|Sugar|FBS,Blood sugar level; primary energy source,Basic Metabolic Panel
+sodium,Sodium,mmol/L,135.0,145.0,135.0,145.0,HIGH,HIGH,Hyponatremia risk,Hypernatremia risk,SODIUM|Na,Key electrolyte for fluid balance and nerve function,Basic Metabolic Panel
+potassium,Potassium,mmol/L,3.5,5.0,3.5,5.0,HIGH,HIGH,Hypokalemia risk,Hyperkalemia risk (cardiac),POTASSIUM|K,Crucial electrolyte for heart and muscle function,Basic Metabolic Panel
+chloride,Chloride,mmol/L,98.0,106.0,98.0,106.0,LOW,LOW,Usually not significant,Metabolic acidosis possibility,CHLORIDE|Cl,Electrolyte helping maintain acid-base balance,Basic Metabolic Panel
+bicarbonate,Bicarbonate,mmol/L,22.0,29.0,22.0,29.0,LOW,LOW,Metabolic acidosis,Metabolic alkalosis,BICARB|CO2|Bicarbonate,Key indicator of acid-base status in blood,Basic Metabolic Panel
+bun,BUN,mg/dL,7.0,20.0,7.0,20.0,LOW,HIGH,Malnutrition or liver disease,Impaired kidney function,BUN|Urea,Blood Urea Nitrogen; waste product indicating kidney function,Basic Metabolic Panel
+creatinine,Creatinine,mg/dL,0.7,1.3,0.6,1.1,LOW,HIGH,Low muscle mass,Kidney dysfunction,CREATININE, waste product from muscle metabolism; key kidney marker,Basic Metabolic Panel
+calcium,Calcium,mg/dL,8.5,10.5,8.5,10.5,HIGH,HIGH,Hypocalcemia risk,Hypercalcemia risk,CALCIUM|Ca,Essential for bones, nerves, and muscle function,Basic Metabolic Panel
+cholesterol_total,Total Cholesterol,mg/dL,0.0,200.0,0.0,200.0,LOW,HIGH,Usually not concerning,Heart disease risk,CHOLESTEROL|Total Chol,Total amount of cholesterol in the blood,Lipid Profile
+ldl,LDL Cholesterol,mg/dL,0.0,100.0,0.0,100.0,LOW,HIGH,Usually not concerning,Major heart disease risk factor,LDL|Bad Cholesterol,Low-Density Lipoprotein; "bad" cholesterol,Lipid Profile
+hdl,HDL Cholesterol,mg/dL,40.0,100.0,50.0,100.0,HIGH,LOW,Heart disease risk,Protective against heart disease,HDL|Good Cholesterol,High-Density Lipoprotein; "good" cholesterol,Lipid Profile
+triglycerides,Triglycerides,mg/dL,0.0,150.0,0.0,150.0,LOW,HIGH,Usually not concerning,Heart/pancreas disease risk,TRIGLYCERIDES,Type of fat in the blood; energy storage,Lipid Profile
+alt,ALT,U/L,7,56,7,56,LOW,HIGH,Usually not significant,Liver cell damage,ALT|SGPT,Alanine Aminotransferase; liver-specific enzyme,Liver Function
+ast,AST,U/L,10,40,10,40,LOW,HIGH,Usually not significant,Liver or muscle damage,AST|SGOT,Aspartate Aminotransferase; found in liver, heart, muscle,Liver Function
+alp,ALP,U/L,44,147,44,147,LOW,HIGH,Usually not significant,Liver or bone disease,ALP|Alk Phos,Alkaline Phosphatase; related to liver, bones, bile ducts,Liver Function
+bilirubin_total,Total Bilirubin,mg/dL,0.3,1.2,0.3,1.2,LOW,HIGH,Usually not significant,Liver dysfunction or jaundice,BILIRUBIN|Total Bili,Breakdown product of red blood cells,Liver Function
+albumin,Albumin,g/dL,3.5,5.5,3.5,5.5,MODERATE,LOW,Nutritional deficiency,Liver disease or kidney loss,ALBUMIN,Main protein in blood plasma; made by liver,Liver Function
+total_protein,Total Protein,g/dL,6.0,8.3,6.0,8.3,MODERATE,LOW,Nutritional status,Nonspecific elevation,TOTAL PROTEIN,Total amount of albumin and globulins in blood,Liver Function
+tsh,TSH,µIU/mL,0.4,4.0,0.4,4.0,HIGH,HIGH,Risk of hyperthyroidism,Risk of hypothyroidism,TSH,Thyroid Stimulating Hormone; regulates thyroid activity,Thyroid
+free_t4,Free T4,ng/dL,0.8,1.8,0.8,1.8,MODERATE,MODERATE,Suggests hypothyroidism,Suggests hyperthyroidism,FREE T4|T4,Thyroxine; main hormone produced by thyroid,Thyroid
+free_t3,Free T3,pg/mL,2.3,4.2,2.3,4.2,MODERATE,MODERATE,Suggests hypothyroidism,Suggests hyperthyroidism,FREE T3|T3,Triiodothyronine; active thyroid hormone,Thyroid
+esr,ESR,mm/hr,0,15,0,20,LOW,HIGH,Usually not significant,Inflammation or infection,ESR|Sed Rate,Erythrocyte Sedimentation Rate; non-specific inflammation marker,Inflammation
+crp,CRP,mg/L,0.0,10.0,0.0,10.0,LOW,HIGH,Usually not significant,Acute inflammation or infection,CRP|CRP HS,C-Reactive Protein; marker of inflammation,Inflammation
+vitamin_d,Vitamin D,ng/mL,30.0,100.0,30.0,100.0,MODERATE,LOW,Bone health risk,Toxicity risk (rare),VITAMIN D|25-OH D,Essential for bone health and immune function,Vitamins/Minerals
+vitamin_b12,Vitamin B12,pg/mL,200,900,200,900,MODERATE,LOW,Anemia/neuropathy risk,Usually not significant,VITAMIN B12|B12,Crucial for nerve function and red blood cell production,Vitamins/Minerals
+ferritin,Ferritin,ng/mL,30,400,13,150,MODERATE,MODERATE,Iron deficiency,Iron overload,FERRITIN,Storage form of iron; indicates iron reserves,Vitamins/Minerals
+iron,Iron,µg/dL,60,170,60,170,MODERATE,MODERATE,Iron deficiency,Iron overload,IRON,Amount of iron in the blood bound to transferrin,Vitamins/Minerals
